@@ -46,7 +46,13 @@
         <img src="./images/trapezoid.svg" alt="Image of trapezoid with labeled sides" width="250" />
       </div>
       <br />
-      <div class="page-content"> Please enter integers for dimentions (mm).</div>
+      <div class="page-content">
+        Formula: A = [(a + b) / 2] x h
+        <br />
+        <br />
+        <br />
+        Please enter integers for dimentions (mm).
+      </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
           a Base:

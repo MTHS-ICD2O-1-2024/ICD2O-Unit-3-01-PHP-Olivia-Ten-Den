@@ -55,9 +55,9 @@
           $volumeOfTrapezoid = ($aBaseOfTrapezoid * $bBaseOfTrapezoid * $heightOfTrapezoid) / 3;
 
           // output
-          echo "If the trapezoid's measurements are = to " . $aBaseOfTrapezoid . ", " . $bBaseOfTrapezoid . " and" . $heightOfTrapezoid;
+          echo "If the trapezoid's measurements are = to " . $aBaseOfTrapezoid . "mm, " . $bBaseOfTrapezoid . "mm and " . $heightOfTrapezoid . "mm.";
           echo "<br />";
-          echo "Than the volume of the trapezoid is " . $volumeOfTrapezoid . " cm³.";
+          echo "Then the volume of the trapezoid will be " . $volumeOfTrapezoid . " mm³.";
           ?>
         </div>
       </div>
