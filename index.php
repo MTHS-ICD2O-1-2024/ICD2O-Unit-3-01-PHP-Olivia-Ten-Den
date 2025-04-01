@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/trapezoid.svg" alt="Image of trapezoid with labeled sides.:" width="250" />
+        <img src="./images/trapezoid.svg" alt="Image of trapezoid with labeled sides" width="250" />
       </div>
       <br />
       <div class="page-content"> Please enter integers for dimentions (mm).</div>

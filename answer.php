@@ -4,7 +4,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="The Area of Triangle program, PHP" />
+  <meta name="description" content="The Area of Trapezoid, PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Olivia TD" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>The Area of Triangle program, PHP</title>
+  <title>The Area of Trapezoid, PHP</title>
 </head>
 
 <body>
@@ -38,26 +38,27 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">The Area of Triangle program, PHP</span>
+        <span class="mdl-layout-title">The Area of Trapezoid, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/area_of_triangle.png" alt="White sign that shows the formula to calculate the area of a triangle, image" width="250" />
+        <img src="./images/trapezoid.svg" alt="Image of trapezoid with labeled sides" width="250" />
       </div>
       <div class="page-content-php">
         <div id="user-info">
           <?php
-          $baseOfTriangle = $_GET["base-of-triangle"];
-          $heightOfTriangle = $_GET["height-of-triangle"];
+          $aBaseOfTrapezoid = $_GET["a-base-of-trapezoid"];
+          $bBaseOfTrapezoid = $_GET["b-base-of-trapezoid"];
+          $heightOfTrapezoid = $_GET["height-of-trapezoid"];
 
           // process
-          $area = ($baseOfTriangle * $heightOfTriangle) / 2;
+          $volumeOfTrapezoid = ($aBaseOfTrapezoid * $bBaseOfTrapezoid * $heightOfTrapezoid) / 3;
 
           // output
-          echo "If the triangle has a base of = " . $baseOfTriangle . " cm and the height of = " . $heightOfTriangle . " cm:";
+          echo "If the trapezoid's measurements are = to " . $aBaseOfTrapezoid . ", " . $bBaseOfTrapezoid . " and" . $heightOfTrapezoid;
           echo "<br />";
-          echo "Than the area of the triangle is " . $area . " cm².";
+          echo "Than the volume of the trapezoid is " . $volumeOfTrapezoid . " cm³.";
           ?>
         </div>
       </div>
