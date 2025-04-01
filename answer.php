@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<!-- ICS2O-Unit2-04-HTML-PHP -->
+<!DOCTYPE html>3-01-HTML-PHP -->
 <html lang="en-ca">
 
 <head>
