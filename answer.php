@@ -52,10 +52,10 @@
           $heightOfTrapezoid = $_GET["height-of-trapezoid"];
 
           // process
-          $volumeOfTrapezoid = ($aBaseOfTrapezoid * $bBaseOfTrapezoid * $heightOfTrapezoid) / 3;
+          $volumeOfTrapezoid = (($aBaseOfTrapezoid + $bBaseOfTrapezoid) / 2) * $heightOfTrapezoid;
 
           // output
-          echo "If the trapezoid's measurements are = to " . $aBaseOfTrapezoid . "mm, " . $bBaseOfTrapezoid . "mm and " . $heightOfTrapezoid . "mm.";
+          echo "If the trapezoid has one base equal to " . $aBaseOfTrapezoid . "mm, a second base equal to " . $bBaseOfTrapezoid . "mm and a height equal to " . $heightOfTrapezoid . "mm.";
           echo "<br />";
           echo "Then the volume of the trapezoid will be " . $volumeOfTrapezoid . " mm³.";
           ?>

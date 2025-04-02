@@ -51,7 +51,7 @@
         <br />
         <br />
         <br />
-        Please enter integers for dimentions (mm).
+        Please enter integers for dimensions (mm).
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
